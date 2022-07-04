@@ -12,6 +12,6 @@ Usuario = prompt("Ingrese su nombre de usuario");
 document.write("Hola " + Usuario );
  
 // 5) SSUMA DE NUMEROS
-PrimerNum = parseInt(prompt("Indique su numero"))
-SegundoNum = parseInt(prompt("Indique su segundo numero"))
+let PrimerNum = parseInt(prompt("Indique su numero"))
+let SegundoNum = parseInt(prompt("Indique su segundo numero"))
 document.write("<p>Resultado:"+(PrimerNum+SegundoNum)+"</p>")
